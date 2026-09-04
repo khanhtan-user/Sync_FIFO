@@ -1,5 +1,5 @@
 # PROJECT_SYNCHRONOUS FIFO
-- Đây là IP Core Synchronous FIFO (First-In-First-Out) tiêu chuẩn, có thể tùy chỉnh tham số độ rộng dữ liệu (W) và độ sâu (L), hỗ trợ cờ Full/Empty và cờ cảnh báo sớm Almost-Full/Almost-Empty (AF/AE) với ngưỡng cấu hình được.
+- Đây là Synchronous FIFO (First-In-First-Out) tiêu chuẩn, có thể tùy chỉnh tham số độ rộng dữ liệu (W) và độ sâu (L), hỗ trợ cờ Full/Empty và cờ cảnh báo sớm Almost-Full/Almost-Empty (AF/AE) với ngưỡng cấu hình được.
 
 ## 1. Project Overview & Status
 * **Design Specification:** Kiến trúc hệ thống và đặc tả chi tiết tại: `docs/Design_Spec/FIFO_Design_Spec.docx/`.
