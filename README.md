@@ -1,4 +1,4 @@
-# PROJECT_IP-Sync_FIFO (Standard)
+# PROJECT_SYNCHRONOUS FIFO
 - Đây là IP Core Synchronous FIFO (First-In-First-Out) tiêu chuẩn, có thể tùy chỉnh tham số độ rộng dữ liệu (W) và độ sâu (L), hỗ trợ cờ Full/Empty và cờ cảnh báo sớm Almost-Full/Almost-Empty (AF/AE) với ngưỡng cấu hình được.
 
 ## 1. Project Overview & Status
@@ -7,7 +7,12 @@
 
 ### Repository Structure
 
+<img width="283" height="165" alt="image" src="https://github.com/user-attachments/assets/59446f10-69ea-4609-b3f3-a7b9297da18d" />
+
+
+
 ```text
+
 PROJECT_IP-Sync_FIFO/
 ├── src/
 │   ├── rtl/                  (fifo.v — single-file RTL)
@@ -35,13 +40,12 @@ PROJECT_IP-Sync_FIFO/
 │   └── Debug_log.md
 ├── report/
 │   ├── Coverage/               (summary_report.txt & detail_report.txt)
-│   └── Justification/          (Coverage Exclusion Justification Table.docx)
 └── README.md
 ```
 
 ### 2. Cấu trúc thiết kế (Design Structure)
 
-Khác với các IP có nhiều khối con phân cấp, `fifo.v` được thiết kế gọn trong **1 file RTL duy nhất** (single-module), tích hợp trực tiếp Memory Array, pointer logic và flag logic — phù hợp với quy mô của 1 sync FIFO cơ bản:
+ `fifo.v` được thiết kế gọn trong **1 file RTL duy nhất** (single-module), tích hợp trực tiếp Memory Array, pointer logic và flag logic — phù hợp với quy mô của 1 sync FIFO cơ bản:
 
 ```text
 fifo.v (Top-level & only Module)
