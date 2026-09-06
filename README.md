@@ -24,7 +24,6 @@ PROJECT_IP-Sync_FIFO/
 │   │   ├── tb.f
 │   │   ├── rtl.f
 │   │   ├── run.csh
-│   │   ├── run_test.v
 │   │   ├── compile.f
 │   │   ├── pat.list
 │   │   └── report.csh
@@ -152,8 +151,6 @@ Một số hạng mục coverage được loại trừ (exclude) dựa trên lý
 | `ae_level`, `af_level` (toggle) | Static threshold, cấu hình 1 lần lúc đầu mô phỏng, không đổi theo thiết kế |
 | `error_count` (toggle) | Luôn giữ giá trị 0 trong suốt regression sạch |
 
-> *Danh sách exclude được áp dụng tự động qua `sim/coverage_excludes.do`, load trước mỗi lần `coverage save` trong target `run_cov`.*
-> *Chi tiết justification đầy đủ xem tại: `/report/Justification/Justification_Table.docx`.*
 
 ---
 ## 8. How to Run
