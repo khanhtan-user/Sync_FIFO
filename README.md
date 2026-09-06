@@ -27,7 +27,6 @@ PROJECT_IP-Sync_FIFO/
 │   │   ├── run_test.v
 │   │   ├── compile.f
 │   │   ├── pat.list
-│   │   ├── coverage_excludes.do
 │   │   └── report.csh
 │   │
 │   └── testcases/            (3 file testcase, tổng cộng 12 test items)
