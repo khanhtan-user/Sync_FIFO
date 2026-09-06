@@ -128,6 +128,13 @@ Hệ thống được kiểm thử dựa trên môi trường mô phỏng (Testb
 * **Simulator:** ModelSim / QuestaSim.
 * **Phương pháp:** Direct Test (task-based, dùng chung task `fifo_write`/`fifo_read`/`fifo_write_read`/`checker` khai báo tại `test_bench.v`, mỗi testcase chỉ định nghĩa `task run_test`).
 * **Kết quả:** Toàn bộ 12 testcases (trong 3 file testcase) đều đạt kết quả PASS với log mô phỏng sạch (Clean Log).
+* Test case:
+* + all_chk.v
+* <img width="537" height="324" alt="image" src="https://github.com/user-attachments/assets/c72a5da2-ab90-4844-94c5-f463c0b295ef" />
+* + write_chk.v
+* <img width="653" height="373" alt="image" src="https://github.com/user-attachments/assets/5662ec3a-0037-4f26-ace1-896ab845fe3c" />
+* + read_chk.v
+* <img width="634" height="361" alt="image" src="https://github.com/user-attachments/assets/6371265e-7355-4b4d-8db2-01be7279fcd9" />
 
 ## 7. Verification Metrics & Coverage
 
