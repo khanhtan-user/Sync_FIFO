@@ -36,7 +36,6 @@ PROJECT_IP-Sync_FIFO/
 ├── docx/
 │   ├── Design_Spec/           (FIFO_Design_Spec.docx)
 │   ├── Verification_Plan/     (FIFO_Verification_Plan.docx)
-│   └── Debug_log.md
 ├── report/
 │   ├── Coverage/               (summary_report.txt & detail_report.txt)
 └── README.md
