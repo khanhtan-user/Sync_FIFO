@@ -19,6 +19,7 @@ PROJECT_IP-Sync_FIFO/
 │   │   └── fifo.v
 │   ├── tb/                   (Testbench top-level)
 │   │   └── test_bench.v
+│   │   └── waveform.md
 │   ├── sim/                  (Makefile và script chạy simulation)
 │   │   ├── Makefile
 │   │   ├── tb.f
