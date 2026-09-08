@@ -37,7 +37,10 @@ PROJECT_IP-Sync_FIFO/
 │   ├── Design_Spec/           (FIFO_Design_Spec.docx)
 │   ├── Verification_Plan/     (FIFO_Verification_Plan.docx)
 ├── report/
-│   ├── Coverage/               (summary_report.txt & detail_report.txt)
+│   ├── Coverage/               (summary_report.txt & detail_report.txt & Readme.md)
+|       ├── Readme.md
+|       ├── summary_report.txt
+|       ├── detail_report.txt
 └── README.md
 ```
 
