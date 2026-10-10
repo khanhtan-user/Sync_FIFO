@@ -10,6 +10,4 @@ sim/vsim.dbg
 sim/vsim.wlf
 sim/run_test.v
 
-# Giữ lại thư mục report/ chứa coverage report và exclusion justification
-!report/
-!report/**
+
